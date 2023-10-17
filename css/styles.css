@@ -796,7 +796,13 @@ body {
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
+    .container {
+        width: 85%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: var(--padding-container);
+    }
     .profits__subtitle {
         font-size: 1.25rem;
         text-align: center;
