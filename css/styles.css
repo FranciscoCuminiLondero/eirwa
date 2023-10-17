@@ -797,6 +797,10 @@ body {
 }
 
 @media (max-width:800px) {
+    .profits__subtitle {
+        font-size: 1.25rem;
+        text-align: center;
+    }
     .contact__container {
         height: 100%;
         display: flex;
